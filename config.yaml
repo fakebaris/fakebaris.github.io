@@ -1,0 +1,70 @@
+baseURL: "https://barisures.com"
+title: BarisUres Blog
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: false
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production 
+  title: barisures
+  description: "ExampleSite description"
+  keywords: [Barisures,barış üresin,mehmet barış üresin]
+  author: Baris Uresin
+  DateFormat: "January 3, 2022"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "Barış Üresin"
+    iconHeight: 35
+
+  homeInfoParams:
+    Title: "Hoş geldiniz\U0001F44B"
+    Content: Burada edindiğim bilgileri sizinle paylaşıyor olacağım.
+
+  socialIcons:
+    - name: instagram
+      url: "https://instagram.com/sudobaris"
+    - name: twitter
+      url: "https://twitter.com/mbarisures"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/barisures/"
+    - name: github
+      url: "https://github.com/barisuresin"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+    
